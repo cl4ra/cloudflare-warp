@@ -7,7 +7,7 @@ Autoscript for getting unlimited GB on Warp+
 For termux users
 
 pkg install git
-pkg install python
+pkg install python && pip install requests
 
 if done
 
