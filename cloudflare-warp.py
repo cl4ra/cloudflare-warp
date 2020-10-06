@@ -23,11 +23,6 @@ def genString(stringLength):
 	except Exception as error:
 		print(error)		    
 def digitString(stringLength):
-	try:
-		digit = string.digits
-		return ''.join((random.choice(digit) for i in range(stringLength)))    
-	except Exception as error:
-		print(error)
 
 url = f'https://api.cloudflareclient.com/v0a{digitString(3)}/reg'
 def run():
