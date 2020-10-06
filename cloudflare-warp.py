@@ -19,10 +19,9 @@ referrer = input("WARP+ ID: ")
 def genString(stringLength):
 
     letters = string.ascii_letters + string.digits
-		return ''.join(random.choice(letters) for i in range(stringLength))
-	except Exception as error:
-		print(error)		    
-def digitString(stringLength):
+
+    return ''.join(random.choice(letters) for i in range(stringLength))
+
 
 url = f'https://api.cloudflareclient.com/v0a{digitString(3)}/reg'
 def run():
